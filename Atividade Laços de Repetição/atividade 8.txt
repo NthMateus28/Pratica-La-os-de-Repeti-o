@@ -1,0 +1,11 @@
+void main(){
+  
+  int valor = 10;
+  print("$valor");
+  for(int i = (valor-1); i>0; i--){
+    valor = valor*i;
+     print("$i");
+  }
+  
+   print("valor é $valor");
+}
